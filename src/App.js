@@ -1,7 +1,8 @@
+import React from "react";
+import TopBar from "./components/topbar";
+import NavBar from "./components/navbar";
+import Home from "./components/home";
 import './App.scss';
-import TopBar from './components/topbar';
-import NavBar from './components/navbar';
-import Home from './components/home';
 
 function App() {
   return (
@@ -14,3 +15,7 @@ function App() {
 }
 
 export default App;
+
+
+
+
