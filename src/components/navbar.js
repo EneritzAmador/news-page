@@ -8,10 +8,9 @@ const NavBar = () => {
       <Link to="/periodico/europapress">Europa Press</Link>
       <Link to="/periodico/deia">Deia</Link>
       <Link to="/periodico/elpais">El País</Link>
-      <Link to="/periodico/cadenaser">Cadena SER</Link>
+      <Link to="/periodico/cadenaser">Cadena Ser</Link>
       <Link to="/periodico/elmundo">El Mundo</Link>
       <Link to="/periodico/lavanguardia">La Vanguardia</Link>
-      {/* Agrega más enlaces para otros periódicos */}
     </div>
   );
 };
