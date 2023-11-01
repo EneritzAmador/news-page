@@ -1,15 +1,19 @@
-import React, { Component } from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
-export default class NavBar extends Component {
-    render() {
-        return (
-            <div className="NavBar">
-                <a href="#">Internacional</a>
-                <a href="#">Nacional</a>
-                <a href="#">Cine</a>
-                <a href="#">Tecnologia</a>
-                <a href="#">Deportes</a>
-            </div>
-        );
-    }
-}
+const NavBar = () => {
+  return (
+    <div className="NavBar">
+      <Link to="/periodico/20minutos">20 Minutos</Link>
+      <Link to="/periodico/europapress">Europa Press</Link>
+      <Link to="/periodico/deia">Deia</Link>
+      <Link to="/periodico/elpais">El País</Link>
+      <Link to="/periodico/cadenaser">Cadena SER</Link>
+      <Link to="/periodico/elmundo">El Mundo</Link>
+      <Link to="/periodico/lavanguardia">La Vanguardia</Link>
+      {/* Agrega más enlaces para otros periódicos */}
+    </div>
+  );
+};
+
+export default NavBar;
