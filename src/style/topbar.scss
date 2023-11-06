@@ -1,21 +1,22 @@
 .TopBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #333; 
-    color: #fff;
-  }
-  
-  .Left {
-    flex-grow: 1;
-  }
-  
-  .Right {
-    display: flex;
-    align-items: center;
-  }
-  
-  .WeatherWidget {
-    /* Estilos para el widget del tiempo */
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333; 
+  color: #fff;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.Left {
+  flex-grow: 1;
+}
+
+.Right {
+  display: flex;
+  align-items: center;
+}
+
+.WeatherWidget {
+  /* Estilos para el widget del tiempo */
+}
