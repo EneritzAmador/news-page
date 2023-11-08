@@ -9,7 +9,6 @@ function TopBar() {
       </div>
       <div className="Right">
         <div className="WeatherWidget">
-          {/* Aquí irá el widget del tiempo */}
           WIDGET
         </div>
       </div>

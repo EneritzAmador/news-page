@@ -30,7 +30,6 @@ const NavBar = () => {
         <Link to="/periodico/cadenaser" onClick={closeMenu}>Cadena Ser</Link>
         <Link to="/periodico/elmundo" onClick={closeMenu}>El Mundo</Link>
         <Link to="/periodico/lavanguardia" onClick={closeMenu}>La Vanguardia</Link>
-        {/* Agrega más enlaces para otros periódicos */}
       </div>
     </div>
   );
