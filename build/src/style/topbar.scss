@@ -1,0 +1,27 @@
+.TopBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: -20px 0px -25px 0px;
+}
+
+.Left {
+  flex-grow: 1;
+
+  h2 {
+    font-size: 65px;
+    font-family: monospace;
+
+    .GreenText {
+      color: #00a859; 
+    }
+
+    .RedText {
+      color: #ee4035; 
+    }
+  }
+}
