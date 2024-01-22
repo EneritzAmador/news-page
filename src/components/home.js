@@ -2,8 +2,8 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div>
-      <h1>Latest News</h1>
+    <div className="HomeContainer">
+      <h1>Descubre todas las noticias a un solo click</h1>
     </div>
   );
 };

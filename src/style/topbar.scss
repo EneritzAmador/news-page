@@ -1,22 +1,27 @@
 .TopBar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #333; 
-  color: #fff;
-  font-family: 'Roboto', sans-serif; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: -20px 0px -25px 0px;
 }
 
 .Left {
   flex-grow: 1;
-}
 
-.Right {
-  display: flex;
-  align-items: center;
-}
+  h2 {
+    font-size: 65px;
+    font-family: monospace;
 
-.WeatherWidget {
-  /* Estilos para el widget del tiempo */
+    .GreenText {
+      color: #00a859; 
+    }
+
+    .RedText {
+      color: #ee4035; 
+    }
+  }
 }

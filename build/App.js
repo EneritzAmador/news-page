@@ -13,10 +13,9 @@ function App() {
         <TopBar />
         <NavBar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/periodico/:name" element={<Newspaper />} />
         </Routes>
-        <Home />
       </div>
     </Router>
   );
